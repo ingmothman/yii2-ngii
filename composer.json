@@ -1,0 +1,23 @@
+{
+    "name": "osmancode/yii2-ngii",
+    "description": "This Module helps you generate AngularJS Clients to work with Yii2 Framework RESTful APIs",
+    "keywords": ["angularjs", "yii2", "gii", "code generator"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Mohammed Osman",
+            "email": "osmancode@gmail.com",
+            "homepage": "http://osmancode.com/",
+            "role": "Creator"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2-gii": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "osmancode\\ngii\\": ""
+        }
+    }
+}
